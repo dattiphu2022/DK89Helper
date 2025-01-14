@@ -8,6 +8,8 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/dattiphu2022/DK89Helper.git</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dattiphu2022/DK89Helper.git</RepositoryUrl>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
