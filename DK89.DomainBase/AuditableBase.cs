@@ -1,8 +1,7 @@
-﻿using DK89.DomainBase.Interface;
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace DK89.DomainBase.Base
+namespace DK89.DomainBase
 {
     /// <summary>
     /// Default ID has GUID type.

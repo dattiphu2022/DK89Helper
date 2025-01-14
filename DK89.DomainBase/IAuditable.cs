@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DK89.DomainBase.Interface
+namespace DK89.DomainBase
 {
     public interface IAuditable
     {
