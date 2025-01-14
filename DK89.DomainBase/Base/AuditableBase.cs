@@ -1,5 +1,6 @@
 ﻿using DK89.DomainBase.Interface;
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace DK89.DomainBase.Base
 {
@@ -8,6 +9,7 @@ namespace DK89.DomainBase.Base
     /// </summary>
     public abstract class AuditableBase : IAuditable
     {
+        [Key]
         public virtual Guid Id { get; set; } = default!;
         public string? CreatedBy { get; set; }
         public DateTime CreatedDate { get; set; }
@@ -17,6 +19,7 @@ namespace DK89.DomainBase.Base
     }
     public abstract class AuditableBase<TIdType> : IAuditable
     {
+        [Key]
         public virtual TIdType Id { get; set; } = default!;
         public string? CreatedBy { get; set; }
         public DateTime CreatedDate { get; set; }
